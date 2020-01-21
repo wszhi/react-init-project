@@ -1,0 +1,15 @@
+.button {
+    padding: 0.5em 1.5em;
+    color: red;
+    background-color: #fff;
+    border: 1px solid currentColor;
+    border-radius: 0.3em;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.button[disabled] {
+    opacity: 0.35;
+    cursor: default;
+}
